@@ -7,7 +7,8 @@ jobs:
     strategy:
       matrix:
         env: [non-prod]
-    secrets: inherit 
+    secrets:
+      REUSABLE_SECRET: ""
     with:
       message: "Build successful!"
       
