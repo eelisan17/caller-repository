@@ -6,7 +6,7 @@ jobs:
     uses: eelisan17/reusable-repository/.github/workflows/reusable-workflow.yaml@main
     strategy:
       matrix:
-        env: [non-prod, prod]
+        env: [non-prod]
     secrets: inherit 
     with:
       message: "Build successful!"
